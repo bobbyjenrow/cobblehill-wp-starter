@@ -1,0 +1,90 @@
+@import url("https://use.typekit.net/tuf8sse.css");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: farnham-headline, serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-rendering: auto;
+  color: #404040;
+  background-color: #ffffff;
+  margin: 0 !important;
+  padding: 0;
+}
+@media screen and (min-width: 652px) {
+  html, body {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 748px) {
+  html, body {
+    font-size: 24px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+._th_j2r58_33 {
+  font-size: 2.666rem;
+  font-weight: 400;
+}
+
+h1, ._t1_j2r58_38 {
+  font-size: 1.9166rem;
+}
+
+h2, ._t2_j2r58_42 {
+  font-size: 1.333rem;
+}
+
+h3, ._t3_j2r58_46 {
+  font-size: 1rem;
+}
+
+h4, ._t4_j2r58_50 {
+  font-size: 0.9166rem;
+}
+
+h5, ._t5_j2r58_54 {
+  font-size: 0.8333rem;
+}
+
+h6, ._t6_j2r58_58 {
+  font-size: 0.5rem;
+}
+
+a {
+  color: #519bbf;
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+  transition: 0.15s ease-in;
+}
+a:hover {
+  transition: 0.15s ease-in;
+  cursor: pointer;
+  color: #404040;
+}
+
+._link--underline_j2r58_74 {
+  font-size: 20px;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid #519bbf;
+  transition: 0.15s ease-in;
+}
+._link--underline_j2r58_74:hover {
+  transition: 0.15s ease-in;
+  cursor: pointer;
+  color: #404040;
+  border-bottom: 2px solid #404040;
+}
+
+input {
+  font-family: farnham-headline, serif;
+  font-size: 16px;
+}

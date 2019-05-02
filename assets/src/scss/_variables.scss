@@ -1,0 +1,63 @@
+// Fonts
+@import url("https://use.typekit.net/tuf8sse.css");
+$font-size-base: 16px;
+$font-size-sm: 20px;
+$font-size-md: 22px;
+$font-size-lg: 24px;
+$font-base: farnham-headline, serif ;
+$font-sizes: (12,18,20,22,24,32,46,64);
+
+$fh: 2.666rem; // 64px
+$f1: 1.9166rem; // 46px
+$f2: 1.333rem; //32px
+$f3: 1rem; //24px
+$f4: .9166rem; //22px
+$f5: .8333rem; //20px
+$f6: .75rem; //18px
+$f7: .5rem; //12px
+
+// Colors
+$primary: #519bbf;
+$font-color: #404040;
+$font-color-light: #ffffff;
+
+$blue: rgb(81, 155, 191);
+$dblue: rgb(0, 70, 107);
+$red: rgb(181, 9, 55);
+$green: rgb(116, 150, 37);
+$yellow: rgb(235, 185, 50);
+$orange: rgb(215, 112, 40);
+$purple: rgb(81, 78, 134);
+$bg: #ffffff;
+$tan: #f6fafc;
+
+// Spacing
+
+$main-m-top: 0px;
+$main-m-bottom: 0px;
+$section-m-top: 60px;
+$section-m-bottom: 0;
+
+$gutters: 30px;
+
+$button-padding-x: 30px;
+$button-padding-y: 8px;
+$section-padding: 50px;
+
+$max-width: 1040px;
+
+// Hamburger
+
+$hamburger-types: (
+  collapse,
+  collapse-r,
+);
+$hamburger-layer-color: $bg;
+$hamburger-layer-border-radius : 1px;
+$hamburger-layer-width         : 40px;
+$hamburger-layer-spacing       : 7px;
+$hamburger-layer-height: 3px ;
+
+$bp-sm: 500px;
+$bp-md: 748px;
+$bp-lg: 978px;

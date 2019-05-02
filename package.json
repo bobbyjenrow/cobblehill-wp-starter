@@ -1,0 +1,20 @@
+{
+  "name": "cobblehill-wp-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "babel-preset-env": "^1.7.0",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.19.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "scripts": {
+    "watch": "parcel watch assets/src/index.js --out-dir assets --out-file index",
+    "serve": "parcel assets/src/index.js --out-dir assets --hmr-port=3000"
+  }
+}
